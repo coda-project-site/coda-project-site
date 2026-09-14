@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="CODA의 새로운 웹사이트가 곧 공개됩니다.">
+  <title>CODA — Coming Soon</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      font-family: Inter, Pretendard, "Noto Sans KR", system-ui, sans-serif;
+      background: #0b0d12;
+      color: #f5f7fb;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      min-height: 100vh;
+      margin: 0;
+      display: grid;
+      place-items: center;
+      overflow: hidden;
+      background:
+        radial-gradient(circle at 15% 15%, rgba(116, 89, 255, .28), transparent 30rem),
+        radial-gradient(circle at 85% 80%, rgba(35, 201, 173, .18), transparent 26rem),
+        #0b0d12;
+    }
+
+    main {
+      width: min(100% - 3rem, 46rem);
+      padding: clamp(2rem, 8vw, 5rem);
+      border: 1px solid rgba(255, 255, 255, .12);
+      border-radius: 1.5rem;
+      background: rgba(15, 18, 27, .66);
+      box-shadow: 0 2rem 6rem rgba(0, 0, 0, .35);
+      backdrop-filter: blur(18px);
+    }
+
+    .eyebrow {
+      margin: 0 0 1.4rem;
+      color: #9fafff;
+      font-size: .8rem;
+      font-weight: 700;
+      letter-spacing: .18em;
+    }
+
+    h1 {
+      max-width: 12ch;
+      margin: 0;
+      font-size: clamp(3rem, 9vw, 6.5rem);
+      line-height: .95;
+      letter-spacing: -.075em;
+    }
+
+    p {
+      max-width: 34rem;
+      margin: 1.8rem 0 0;
+      color: #c3c9d7;
+      font-size: clamp(1rem, 2vw, 1.2rem);
+      line-height: 1.7;
+    }
+
+    footer {
+      margin-top: 4rem;
+      color: #72798c;
+      font-size: .875rem;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="eyebrow">CODA</p>
+    <h1>새로운 이야기를 준비하고 있습니다.</h1>
+    <p>기록하고, 실험하고, 다음 장을 만들어 갑니다. 곧 더 많은 소식으로 찾아뵙겠습니다.</p>
+    <footer>© 2026 CODA</footer>
+  </main>
+</body>
+</html>
